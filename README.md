@@ -21,7 +21,7 @@ Current syntax is:
 
 ```
 dostuff cmd /lastsynth
-dostuff delay 23
+dostuff delay 24
 dostart start
 ```
 
