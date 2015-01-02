@@ -11,7 +11,7 @@ Current syntax is:
 - 'dos list' : Review current settings
 - 'dos start': Start doing stuff
 - 'dos stop' : Stop doing stuff
-- 'dos cmd'  : Specify command to repeat.
+- 'dos cmd'  : Specify command to repeat. Note: If needed, use single quotes instead of double quotes.
 - 'dos count': Specify count (0 will loop forever, which is default)
 - 'dos delay': Specify delay (default is 5 secs). This can be adjusted while dostuff is running if needed.
 
@@ -27,7 +27,7 @@ dos start
 
 - Say you need to go AFK for a few mins while nuking a WKR
 ```
-dostuff cmd /ma "Fire" <t>
+dostuff cmd /ma 'Fire' <t>
 dostuff delay 5
 dostuff count 0
 dostart start
@@ -35,7 +35,7 @@ dostart start
 
 - Say you cast a spell on a trust/alt (party member 2) all night.
 ```
-dostuff cmd /ma "Cure" <p2>
+dostuff cmd /ma 'Cure II' <p2>
 dostuff delay 6
 dostuff count 0
 dostart start
