@@ -27,18 +27,18 @@ dos start
 
 - Say you need to go AFK for a few mins while nuking a WKR
 ```
-dostuff cmd /ma 'Fire' <t>
-dostuff delay 5
-dostuff count 0
-dostart start
+dos cmd /ma 'Fire' <t>
+dos delay 5
+dos count 0
+dos start
 ```
 
 - Say you cast a spell on a trust/alt (party member 2) all night.
 ```
-dostuff cmd /ma 'Cure II' <p2>
-dostuff delay 6
-dostuff count 0
-dostart start
+dos cmd /ma 'Cure II' <p2>
+dos delay 6
+dos count 0
+dos start
 ```
 
 
