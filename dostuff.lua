@@ -1,7 +1,7 @@
 --[[
-dostuff v1.2014.09.29
+dostuff v2019.02.02
 
-Copyright (c) 2014, Mujihina
+Copyright (c) 2019, Mujihina
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -12,7 +12,7 @@ notice, this list of conditions and the following disclaimer.
 * Redistributions in binary form must reproduce the above copyright
 notice, this list of conditions and the following disclaimer in the
 documentation and/or other materials provided with the distribution.
-* Neither the name of castcrap2 nor the
+* Neither the name of dostuff nor the
 names of its contributors may be used to endorse or promote products
 derived from this software without specific prior written permission.
 
@@ -31,7 +31,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 _addon.name    = 'dostuff'
 _addon.author  = 'Mujihina'
-_addon.version = '1.2014.09.29'
+_addon.version = '2019.02.02'
 _addon.command = 'dostuff'
 _addon.commands = {'dos'}
 
@@ -146,11 +146,11 @@ function dos_command (cmd, ...)
 
     -- count
     if (cmd == 'count') then
-            -- only accept patterns with 0-9
-            if (not windower.regex.match(input, "^[0-9]+$")) then
-                print ("DoStuff: Rejecting count. Not a number")
-                return
-            end
+        -- only accept patterns with 0-9
+        if (not windower.regex.match(input, "^[0-9]+$")) then
+        	print ("DoStuff: Rejecting count. Not a number")
+            return
+        end
         dos_count = tonumber(input)
         print ("DoStuff count is now: %d":format(dos_count))
         return
