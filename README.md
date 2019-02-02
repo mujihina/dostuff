@@ -1,5 +1,5 @@
 **Author:** Mujihina
-**Version:** v1.2014.09.29
+**Version:** v2019.02.02
 
 This addon will help you do repetitive command line tasks.
 
