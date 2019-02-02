@@ -46,6 +46,3 @@ dos start
 
 
 ##Changelog##
-
-### v1.2014.09.29 ###
-* First release.
